@@ -22,7 +22,7 @@
             minlength="6"
             maxlength="20"
             placeholder="Por favor, ingrese su nombre"
-            pattern="[^a-ZA-Z0-9]"
+            pattern="[^a-ZA-Z]"
             required
         ><br><br>
         <label for="surname"> Apellido </label><br>
@@ -33,6 +33,7 @@
             minlength="6"
             maxlength="20"
             placeholder="Por favor, ingrese su apellido"
+            pattern="[^a-ZA-Z]"
             required
         ><br><br>
         <label for="email"> Correo </label><br>

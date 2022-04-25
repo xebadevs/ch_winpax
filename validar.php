@@ -18,12 +18,6 @@ try {
 
 
 // -------------------- VALIDATION -------------------- //
-
-$form_error = NULL;
-$email_error = NULL;
-
-// -------------------- E-MAIL SEARCH -------------------- //
-
 try {
     $name = $_POST['name'];
     $surname = $_POST['surname'];
@@ -65,3 +59,9 @@ try {
 }catch (Exception $e){
     echo $e->getMessage();
 }
+
+?>
+
+<head>
+    <link rel="stylesheet" href="styless.css">
+</head>
