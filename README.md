@@ -1,1 +1,3 @@
-# ch_winpax
+# Challenge for Winpax 🧪
+
+> PHP Jr Technical test
